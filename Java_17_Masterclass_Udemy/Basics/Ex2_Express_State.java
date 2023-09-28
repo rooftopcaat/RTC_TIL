@@ -1,5 +1,3 @@
-package Basics;
-
 public class Ex2_Express_State {
     public static void main(String[] args) {
 
