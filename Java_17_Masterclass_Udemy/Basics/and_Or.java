@@ -1,3 +1,5 @@
+package Basics;
+
 public class and_Or {
     public static void main(String[] args) {
         int topScore = 80;
@@ -16,13 +18,13 @@ public class and_Or {
         if (newValue == 50)
 //        if (newValue = 50) {
             System.out.println("This is an error");
-        }
-        boolean isCar = false;
-        if (isCar = true) {
-            // (isCar == true) = (isCar)
-            // (isCar == false) = (!iscar) = (iscar != true)
-            // 일반적으로 축약된 방식을 사용하는걸 추천!
-            System.out.println("This is not supposed to happen");
-        }
     }
+    boolean isCar = false;
+        if (isCar = true) {
+        // (isCar == true) = (isCar)
+        // (isCar == false) = (!iscar) = (iscar != true)
+        // 일반적으로 축약된 방식을 사용하는걸 추천!
+        System.out.println("This is not supposed to happen");
+    }
+}
 }

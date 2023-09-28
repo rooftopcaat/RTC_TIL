@@ -1,4 +1,6 @@
-public class ternary Operator {
+package Basics;
+
+public class ternaryOperator {
 
     public static void main(String[] args) {
         String makeOfCar = "Volkswagen";
@@ -10,10 +12,10 @@ public class ternary Operator {
         // 3 opperand(항) = (조건이 false)할당되는 값. boolean에서 false라면 true 도출
         if (isDomestic) {
             System.out.println("This car is domestic to our country")}
-        } // = boolean isDomestic = (makeOfCar != "Volkswagen");
-        // 실행 밴드의 유형은 동일한 자료형이나 호환가능한 유형
-        int ageOfClient = 20;
-        String ageText = ageOfClient >= 18 ? "Over Eighteen" : "Still a kid";
+    } // = boolean isDomestic = (makeOfCar != "Volkswagen");
+    // 실행 밴드의 유형은 동일한 자료형이나 호환가능한 유형
+    int ageOfClient = 20;
+    String ageText = ageOfClient >= 18 ? "Over Eighteen" : "Still a kid";
         System.out.println("Our Client is " + ageText);
     }
 }

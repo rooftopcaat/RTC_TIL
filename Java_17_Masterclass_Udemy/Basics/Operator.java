@@ -1,3 +1,5 @@
+package Basics;
+
 public class Operator {
     public static void main(String[] args) {
         double a = 20.00d;
